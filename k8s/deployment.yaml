@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: game-2048
-        image: <AWS_ACCOUNT_ID>.dkr.ecr.<region>.amazonaws.com/2048-app:latest
+        image: 444853190810.dkr.ecr.us-east-1.amazonaws.com/2048-app:latest
         ports:
         - containerPort: 80
